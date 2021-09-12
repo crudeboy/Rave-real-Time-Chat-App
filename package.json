@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@types/bad-words": "^3.0.1",
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0",
+    "typescript": "^4.4.2"
+  },
+  "name": "chattingapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "runUser": "node dist/utils/users.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1"
+  }
+}
